@@ -18,8 +18,8 @@ A simple and modern web-based tool to convert, compress, and extract files direc
 
 ## 🛠️ Built With
 
-- HTML5
-- CSS3
+- HTML
+- CSS
 - JavaScript 
 - jsPDF
 - PDF.js
