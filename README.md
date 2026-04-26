@@ -28,9 +28,12 @@ A simple and modern web-based tool to convert, compress, and extract files direc
 
 ## 📁 Project Structure
 
-
-
-
+```bash
+README.md
+index.html
+script.js
+style.css
+```
 ---
 
 ## 👨‍💻 Author
