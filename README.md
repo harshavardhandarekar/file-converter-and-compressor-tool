@@ -26,6 +26,11 @@ A simple and modern web-based tool to convert, compress, and extract files direc
 
 ---
 
+## 🌐 Live Demo
+
+https://harshavardhandarekar.github.io/password-analyzer-generator/
+
+---
 ## 📁 Project Structure
 
 ```bash
