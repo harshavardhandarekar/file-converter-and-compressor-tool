@@ -1,0 +1,126 @@
+:root{
+  --bg:#f6f7fb;
+  --card:#ffffff;
+  --text:#111827;
+  --primary:#4f46e5;
+  --muted:#6b7280;
+}
+
+body.dark{
+  --bg:#0f172a;
+  --card:#1e293b;
+  --text:#f1f5f9;
+  --muted:#94a3b8;
+}
+
+body{
+  margin:0;
+  font-family:'Segoe UI',sans-serif;
+  background:var(--bg);
+  color:var(--text);
+}
+
+/* HEADER */
+header{
+  background:linear-gradient(135deg,#4f46e5,#7c3aed);
+  color:white;
+  padding:16px 25px;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+}
+
+header button{
+  background:white;
+  border:none;
+  padding:8px 12px;
+  border-radius:8px;
+  cursor:pointer;
+}
+
+/* CONTAINER */
+.container{
+  max-width:900px;
+  margin:40px auto;
+  padding:20px;
+}
+
+.card{
+  background:var(--card);
+  padding:25px;
+  border-radius:16px;
+  box-shadow:0 10px 30px rgba(0,0,0,0.08);
+}
+
+/* DROPZONE */
+.dropzone{
+  border:2px dashed var(--muted);
+  padding:35px;
+  text-align:center;
+  border-radius:12px;
+  cursor:pointer;
+}
+
+.dropzone.dragover{
+  border-color:var(--primary);
+  background:#eef2ff;
+}
+
+body.dark .dropzone.dragover{
+  background:#1e293b;
+}
+
+/* FILES */
+.file{
+  display:inline-block;
+  padding:6px 10px;
+  margin:5px;
+  border-radius:20px;
+  background:#e5e7eb;
+  font-size:13px;
+}
+
+body.dark .file{
+  background:#334155;
+}
+
+/* BUTTONS */
+button.action{
+  background:var(--primary);
+  color:white;
+  border:none;
+  padding:10px 14px;
+  margin:6px;
+  border-radius:10px;
+  cursor:pointer;
+}
+
+/* PROGRESS */
+.progress{
+  width:100%;
+  height:10px;
+  background:#e5e7eb;
+  border-radius:10px;
+  overflow:hidden;
+  margin-top:15px;
+}
+
+.bar{
+  height:100%;
+  width:0%;
+  background:var(--primary);
+}
+
+.status{
+  font-size:13px;
+  color:var(--muted);
+  margin-top:5px;
+}
+
+/* DOWNLOADS */
+.downloads a{
+  display:block;
+  margin-top:10px;
+  color:var(--primary);
+  text-decoration:none;
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>File Converter & Compressor Tool</title>
+
+<link rel="stylesheet" href="style.css">
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.16.105/pdf.min.js"></script>
+</head>
+
+<body>
+
+<header>
+  <h3>🚀 File Converter & Compressor Tool</h3>
+  <button onclick="document.body.classList.toggle('dark')">🌙</button>
+</header>
+
+<div class="container">
+<div class="card">
+
+  <div class="dropzone" id="dropzone">
+    📂 Drag & Drop Files Here OR Click to Upload
+    <input type="file" id="file" multiple hidden>
+  </div>
+
+  <div id="list"></div>
+
+  <button class="action" onclick="toPDF()">Images → PDF</button>
+  <button class="action" onclick="compress()">Compress</button>
+  <button class="action" onclick="pdfText()">PDF → Text</button>
+
+  <div class="progress">
+    <div class="bar" id="bar"></div>
+  </div>
+
+  <div class="status" id="status">Ready</div>
+
+  <div class="downloads" id="downloads"></div>
+
+</div>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
