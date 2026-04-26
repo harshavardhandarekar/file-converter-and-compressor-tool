@@ -28,7 +28,7 @@ A simple and modern web-based tool to convert, compress, and extract files direc
 
 ## 🌐 Live Demo
 
-https://harshavardhandarekar.github.io/password-analyzer-generator/
+https://harshavardhandarekar.github.io/file-converter-and-compressor-tool/
 
 ---
 ## 📁 Project Structure
