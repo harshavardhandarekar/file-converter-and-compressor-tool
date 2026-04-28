@@ -50,7 +50,3 @@ Harshavardhan Darekar
 Made with ❤️ for learning and portfolio purpose.
 
 ---
-
-## ⭐ Support
-
-If you like this project, give it a ⭐ on GitHub!
